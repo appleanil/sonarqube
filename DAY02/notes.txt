@@ -32,20 +32,7 @@ sh sonar.sh status
 Then start the sonarqube server from sonar user and check the status.
 http://13.233.55.221:9000/
 
-
-
-
-
 ================================================================================================
-
-
-
-
-
-
-
-
-
 
 How to execute the sonarqube report for our java projects?
 ==========================================================
@@ -68,16 +55,6 @@ step 3: generate the sonarqube report
 step 4: go to sonarqube server GUI , click on projects tab , where you can see the project.
 
 step 5: Open the project to see complete report.
-
-
-
-
-
-
-
-
-
-
 
 ====================================================================================================
 
@@ -106,30 +83,6 @@ step 3: Generate again:  mvn clean sonar:sonar
 
 
 ====================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 How to change the sonarQuber server port number?
 ------------------------------------------------
 --> Default port number is : 9000
@@ -149,23 +102,6 @@ step 4: sh sonar.sh restart
 
 
 ====================================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Projects
 ---------
 It displays all the projects.
@@ -225,21 +161,7 @@ Go to project --> select project --> project settings --> quality gate --> java 
 
 step 3: go and run the sonarqube report [mvn sonar:sonar]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+===============================================================================================================================================
 Adminstration
 =============
 
