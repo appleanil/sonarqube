@@ -1,13 +1,10 @@
 SonarQube by KK FUNDA
 =====================
-
-
 Explain the flow diagram ----> Before maven and tomcat ----> SonarQube.
 
 
 Def:
 ---
-
 -> SonarQube is an open-source platform used for continuous inspection of code quality. 
 
 -> It performs static code analysis to identify bugs, vulnerabilities, and code smells in your code.
@@ -16,10 +13,8 @@ Def:
 
 Key Features
 =============
-
 Code Quality and Security
 -------------------------
-
 Bugs and Vulnerabilities ---> Detect and fix issues that might lead to bugs or security vulnerabilities.
 
 Code Smells --> Identify maintainability issues in your code.
@@ -41,7 +36,7 @@ Quality Gates
 Set thresholds for quality metrics to ensure code meets the standards before it is integrated into the main branch.
 
 
-similar tools
+Similar tools
 -------------
 SonarQube
 Checkmarx
@@ -69,7 +64,7 @@ Brakeman
 what is the diff between code review and code coverage?
 =========================================================
 
-code coverage:
+Code coverage:
 --------------
 Number of lines tested through unit test cases called as code coverage.
 
@@ -80,7 +75,7 @@ Benefits: Helps identify untested areas of code
 Tools: Tools like JaCoCo (for Java)
 
 
-code review:
+Code review:
 ------------
 Code review is the process of manually reviewing code by team members to find bugs, ensure to following  coding standards, and improve overall code quality.
 
